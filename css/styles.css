@@ -1,0 +1,154 @@
+/* Custom properties */
+:root {
+  /* fonts */
+  /* font-family: 'IBM Plex Sans', sans-serif; */
+  --ff-sans: 'IBM Plex Sans', sans-serif;
+  /* font sizes */
+  --fs-700: 5.5rem;
+  --fs-600: 2.5rem;
+  --fs-500: 1.25rem;
+  --fs-450: 1.125rem;
+  --fs-400: 1rem;
+  /* font weights */
+  --fw-700: 700;
+  --fw-400: 400;
+
+  /* colors */
+  --clr-aqua: #66E2DC;
+  --clr-orange: #FA7453;
+  --clr-yellow: #FFB964;
+  --clr-soft-white: #FCFAF9;
+  --clr-black: #191826;
+ 
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* General Styles */
+body {
+  min-height: 100vh;
+  font-family: var(--ff-sans);
+  font-size: var(--fs-400);
+  line-height: 1.5;
+  background-color: var(--clr-soft-white);
+  color: var(--clr-black);
+}
+
+.logo {
+  height: 32px;
+}
+
+.header-title {
+  font-size: var(--fs-450);
+  font-weight: var(--fw-700);
+}
+
+/* Utility Classes */
+.container {
+  padding: 0 1em;
+  max-width: 1110px;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Design System-specfic classes */
+.design-header {
+  padding: 4em 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.design-title {
+  margin-bottom: 3rem;
+  font-size: var(--fs-600);
+  font-weight: var(--fw-700);
+  line-height: 52px;
+}
+
+.colors-section {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  column-gap: 1.875rem;
+  row-gap: 3.75rem;
+  /* outline: 2px solid black; */
+}
+
+.col {
+  /* outline: 1px solid tomato; */
+}
+
+.color {
+  padding: 1em 1em 1.875em ;
+  font-size: 24px;
+  font-weight: var(--fw-700);
+  border-radius: 12px;
+}
+
+.aqua { background-color: var(--clr-aqua); }
+.orange { background-color: var(--clr-orange); }
+.yellow { background-color: var(--clr-yellow); }
+.soft-white { 
+  background-color: var(--clr-soft-white); 
+  border: 1px solid var(--clr-black);
+}
+.black { 
+  background-color: var(--clr-black); 
+  color: var(--clr-soft-white);
+}
+
+.rgb-color,
+.hsl-color {
+  margin-right: 70px;
+}
