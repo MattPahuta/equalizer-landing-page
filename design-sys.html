@@ -17,38 +17,102 @@
       <h1 class="header-title">Design System</h1>
     </header>
 
-    <main>
+    <main class="flex design-main">
+      <!-- Colors -->
       <section>
         <h2 class="design-title">Colors</h2>
-        <div class="grid colors-section">
+        <div class="grid colors-grid">
           <div class="col">
             <div class="color aqua">#66E2DC</div>
-            <div>
-              <span class="rgb-color">RGB</span><span>102, 226, 220</span>
-            </div>
-            <div>
-              <span class="hsl-color">HSL</span><span>177, 68%, 64%</span>
+            <div class="alt-clr-formats">
+              <p><span class="rgb-color">RGB</span><span>102, 226, 220</span></p>
+              <p><span class="hsl-color">HSL</span><span>177, 68%, 64%</span></p>
             </div>
           </div>
           <div class="col ">
             <div class="color orange">#FA7453</div>
+            <div class="alt-clr-formats">
+              <p><span class="rgb-color">RGB</span><span>250, 116, 83</span></p>
+              <p><span class="hsl-color">HSL</span><span>12, 94%, 65%</span></p>
+            </div>
           </div>
           <div class="col ">
             <div class="color yellow">#FFB964</div>
+            <div class="alt-clr-formats">
+              <p><span class="rgb-color">RGB</span><span>255, 185, 100</span></p>
+              <p><span class="hsl-color">HSL</span><span>33, 100%, 70%</span></p>
+            </div>
           </div>
           <div class="col ">
             <div class="color soft-white">#FCFAF9</div>
+            <div class="alt-clr-formats">
+              <p><span class="rgb-color">RGB</span><span>252, 250, 249</span></p>
+              <p><span class="hsl-color">HSL</span><span>20, 33%, 98%</span></p>
+            </div>
           </div>
           <div class="col ">
             <div class="color black">#191826</div>
+            <div class="alt-clr-formats">
+              <p><span class="rgb-color">RGB</span><span>25, 24, 38</span></p>
+              <p><span class="hsl-color">HSL</span><span>244, 23%, 12%</span></p>
+            </div>
           </div>
         </div>
-
       </section>
-      <section class="grid"></section>
-      <section class="grid"></section>
-    </main>
 
+      <!-- Typography -->
+      <section>
+        <h2 class="design-title">Typography</h2>
+        <div class="grid typo-grid">
+          <div class="typo-col">
+            <div>
+              <div class="flex typo-level">
+                <div>H1</div><span>IBM Plex Sans Bold</span><span>88px Line</span><span>-1px Spacing</span>
+              </div>
+            </div>
+            <h1 class="fs-700">Lorem Ipsum Dolor Sit</h1>
+            <div>
+              <div class="flex typo-level">
+                <div>H2</div><span>IBM Plex Sans Bold</span><span>40px</span><span>52px Line</span>
+              </div>
+            </div>
+            <h2 class="fs-600">Donec nec justo eget felis facilisis fermentum</h2>
+          </div>
+          <div class="typo-col">
+            <div>
+              <div class="flex typo-level">
+                <div>Body 1</div><span>IBM Plex Sans Bold</span><span>20px</span><span>34px Line</span>
+              </div>
+            </div>
+            <p class="fs-500">Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</p>
+            <div>
+              <div class="flex typo-level">
+                <div>Body 2</div><span>IBM Plex Sans Bold</span><span>16px</span><span>26px Line</span>
+              </div>
+            </div>
+            <p class="fs-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Buttons -->
+      <section>
+        <h2 class="design-title">Buttons</h2>
+        <div class="grid buttons-grid">
+          <div class="col">
+            <div>
+              <a class="btn btn-ios"><img src="./assets/icon-apple.svg" alt="apple icon"> iOS Download</a>
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <div class="col">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      </section>
+    </main>
 
   </div>
   
