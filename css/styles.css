@@ -95,6 +95,27 @@ h6 {
 
 /* Components */
 
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* align-self: start;  */
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  /* font */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.18px;
+
+  /* size */
+  padding: .25em 0.75em;
+  min-width: 20ch;
+  min-height: 60px;
+
+}
+
 /* General Styles */
 body {
   min-height: 100vh;
@@ -129,8 +150,12 @@ body {
   display: flex;
 }
 
-/* Design System-specfic classes */
 
+
+
+
+
+/* Design System-specfic classes */
 .design-header {
   padding: 4em 0;
   justify-content: space-between;
@@ -154,10 +179,6 @@ body {
   column-gap: 1.875rem;
   row-gap: 3.75rem;
   /* outline: 2px solid black; */
-}
-
-.col {
-  /* outline: 1px solid tomato; */
 }
 
 .color {
@@ -220,35 +241,59 @@ body {
 
 /* buttons section */
 .buttons-grid {
+  padding-top: 4rem;
   grid-template-columns: 1fr 1fr;
-
+  justify-items: center;
+  background: var(--clr-orange);
   border: 1px solid var(--clr-orange);
-}
-
-/* move this to components */
-.btn {
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: -0.18px;
-
   border-radius: 12px;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 1rem 6rem;
 }
+
+.btn-cell {
+  margin-bottom: 3.75rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  width: 333px;
+}
+
+.btn-cell p {
+  margin-top: 12px;
+}
+
+
 
 .btn-ios {
-  color:var(--clr-soft-white);
+  color: var(--clr-soft-white);
   background: var(--clr-black);
 }
 
+.ios-hover {
+  background: var(--clr-aqua);
+}
 
-/* temp? */
+.btn-android {
+  color: var(--clr-black);
+  background: var(--clr-soft-white);
+}
+
+.android-hover {
+  background: var(--clr-yellow);
+}
+
+.btn-icon {
+  margin-right: 8px;
+}
+
+.buttons-grid p {
+  line-height: 32px;
+  letter-spacing: -0.16px;
+  color: var(--clr-soft-white);
+}
+
+
+/* temp */
 .design-main section:last-of-type {
-  padding-bottom: 10rem;
+  padding-bottom: 30rem;
 }
