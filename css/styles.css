@@ -6,6 +6,7 @@
   /* font sizes */
   --fs-700: 5.5rem;
   --fs-600: 2.5rem;
+  --fs-550: 2rem;
   --fs-500: 1.25rem;
   --fs-450: 1.125rem;
   --fs-400: 1rem;
@@ -70,7 +71,38 @@ h6 {
   isolation: isolate;
 }
 
+/* General Styles */
+body {
+  min-height: 100vh;
+  font-family: var(--ff-sans);
+  font-size: var(--fs-400);
+  line-height: 1.5;
+  background-color: var(--clr-soft-white);
+  color: var(--clr-black);
+}
+
+header {
+  padding: 2.5rem 0;
+}
+
+.logo {
+  height: 32px;
+}
+
+
+
 /* Typography */
+.fs-primary-heading {
+  font-size: var(--fs-600);
+  line-height: 1.2;
+
+  margin-bottom: 20px;
+}
+
+.fs-primary-body {
+  font-size: var(--fs-400);
+  line-height: 1.6;
+}
 
 .fs-700 {
   font-size: var(--fs-700);
@@ -78,22 +110,43 @@ h6 {
   letter-spacing: -1px;
 }
 
-.fs-600 {
-  font-size: var(--fs-600);
+.card-heading {
+  font-size: var(--fs-550);
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.card-body {
+  font-size: var(--fs-450);
+  margin-bottom: 36px;
+}
+
+
+
+
+.price {
+  font-size: 65px;
+  font-weight: 700;
   line-height: 52px;
 }
 
-.fs-500 {
+.term {
   font-size: var(--fs-500);
-  line-height: 34px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
 }
 
-.fs-400 {
-  font-size: var(--fs-400);
-  line-height: 26px;
+@media (min-width: 40em) {
+
 }
 
 /* Components */
+
+.card {
+  background: var(--clr-orange);
+  color: var(--clr-soft-white);
+  border-radius: 12px;
+}
 
 .btn {
   display: inline-flex;
@@ -116,28 +169,23 @@ h6 {
 
 }
 
-/* General Styles */
-body {
-  min-height: 100vh;
-  font-family: var(--ff-sans);
-  font-size: var(--fs-400);
-  line-height: 1.5;
-  background-color: var(--clr-soft-white);
-  color: var(--clr-black);
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
 }
 
-.logo {
-  height: 32px;
-}
+/* .price,
+.term {
+  display: inline-flex;
+} */
 
-.header-title {
-  font-size: var(--fs-450);
-  font-weight: var(--fw-700);
-}
+
 
 /* Utility Classes */
 .container {
-  padding: 0 1em;
+  padding: 0 1.5em;
   max-width: 1110px;
   margin-inline: auto;
 }
@@ -160,6 +208,11 @@ body {
   padding: 4em 0;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-title {
+  font-size: var(--fs-450);
+  font-weight: var(--fw-700);
 }
 
 .design-title {
