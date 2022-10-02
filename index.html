@@ -12,48 +12,63 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="grid">
   <div class="container">
-    <header>
-      <img class="logo" src="./assets/logo.svg" alt="equalizer logo">
-
-    </header>
-
-    <section>
+    <header class="page-header">
+      <img class="logo header-logo" src="./assets/logo.svg" alt="equalizer logo">
       <h1 class="fs-primary-heading ">We make your music sound extraordinary.</h1>
       <p class="fs-primary-body">A system audio equalizer specifically designed for Android and iOS. Freely tune the 
       way your music sounds with a professional grade parametric EQ & volume mixer. Control 
       bass, mids, treble, gain control, reverb, and more!</p> 
-    </section>
-  </div>
-  <!-- featured/pricing card section -->
-  <section>
+    </header>
 
-    <!-- <img src="./assets/illustration-app.png" alt="app example screen shown on iPhone"> -->
+    <main class="page-main">
+      <!-- featured/pricing card section -->
+      <section class="featured">
+        <img class="product-mockup" src="./assets/illustration-app.png" alt="app example screen shown on iPhone">
 
-    <div class="card">
-      <h2 class="card-heading">Premium EQ</h2>
-      <p class="card-body">Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take 
-      your listening experience to a whole new level and access all our incredible features!</p>
-      <div class="price-container">
-        <p><span class="price">$4</span></p><p><span class="term">/ month</span></p>
+        <div class="card">
+          <h2 class="card-heading">Premium EQ</h2>
+          <p class="card-body">Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take 
+          your listening experience to a whole new level and access all our incredible features!</p>
+          <div class="price-container">
+            <p><span class="price">$4</span></p><p><span class="term">/ month</span></p>
+          </div>
+
+          <a class="btn btn-ios"><img class="btn-icon" src="./assets/icon-apple.svg" alt="apple icon">iOS Download</a>
+          <a class="btn btn-android"><img class="btn-icon" src="./assets/icon-android.svg" alt="apple icon">Android Download</a>
+        </div>
+        <img class="featured-bg-image" src="./assets/bg-pattern-2.svg" alt="">
+      </section>
+
+    </main>
+ 
+    <footer class="page-footer flex">
+      <div class="col-left">
+        <img class="logo footer-logo" src="./assets/logo.svg" alt="equalizer logo">
+        <div class="footer-text">
+          <p>All rights reserved © Equalizer 2021</p>
+          <p>Have any problems? Contact us via social media or email us at <a href="#">equalizer@example.com</a></p>
+        </div>
+
+      </div>
+      <div class="col-right social-icons">
+        <a href="#" class="social-link">
+          <img class="social-icon" src="./assets/icon-facebook.svg" alt="facebook-logo">
+        </a>
+        <a href="#" class="social-link">
+          <img class="social-icon" src="./assets/icon-instagram.svg" alt="instagram-logo">
+        </a>
+        <a href="#" class="social-link">
+          <img class="social-icon" src="./assets/icon-twitter.svg" alt="twitter-logo">
+        </a>
       </div>
 
-      <a class="btn btn-ios"><img class="btn-icon" src="./assets/icon-apple.svg" alt="apple icon">iOS Download</a>
-      <a class="btn btn-android"><img class="btn-icon" src="./assets/icon-android.svg" alt="apple icon">Android Download</a>
-    </div>
 
-  </section>
-
-  <!-- <div class="container">
-    <footer>
-      <img class="logo" src="./assets/logo.svg" alt="equalizer logo">
-      <p>All rights reserved © Equalizer 2021</p>
-      <p>Have any problems? Contact us via social media or email us at <a href="#">equalizer@example.com</a></p>
     </footer>
-  </div> -->
 
 
-  <script src="./js/app.js"></script>
+  </div>
+
 </body>
 </html>
