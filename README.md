@@ -11,6 +11,7 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -48,3 +49,20 @@ Users should be able to:
 - Website - [Matt Pahuta](https://www.mattpahuta.com)
 - Frontend Mentor - [@MattPahuta](https://www.frontendmentor.io/profile/MatPahuta)
 - Twitter - [@MattPahuta](https://www.twitter.com/MattPahuta)
+
+## Acknowledgments
+As always, thanks to the great [Kevin Powell](https://www.twitter.com/KevinJPowell) for a wealth of guidance, tips, and tricks for all things HTML and CSS, including this bit of CSS to easily hide content that's meant for accessibility purposes only. I use this all the time.
+
+```css
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+```
