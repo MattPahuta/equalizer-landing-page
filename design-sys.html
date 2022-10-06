@@ -9,9 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/design.css">
+
 </head>
-<body>
-  <div class="container">
+<body class="design-body">
+  <div class="design-container">
     <header class="flex design-header">
       <img class="logo" src="./assets/logo.svg" alt="equalizer logo">
       <h1 class="header-title">Design System</h1>
@@ -78,7 +80,7 @@
             </div>
             <h2 class="fs-600">Donec nec justo eget felis facilisis fermentum</h2>
           </div>
-          <div class="typo-col">
+          <div class="typo-col typo-body">
             <div>
               <div class="flex typo-level">
                 <div>Body 1</div><span>IBM Plex Sans Bold</span><span>20px</span><span>34px Line</span>
@@ -100,31 +102,29 @@
         <h2 class="design-title">Buttons</h2>
         <div class="grid buttons-grid">
 
-          <div class="col">
+          <div class="ios-btns">
             <div class="btn-cell">
-              <a class="btn btn-ios"><img class="btn-icon" src="./assets/icon-apple.svg" alt="apple icon">iOS Download</a>
+              <a class="btn btn-ios-design"><img class="btn-icon" src="./assets/icon-apple.svg" alt="apple icon">iOS Download</a>
               <p>iOS Download Button Default</p>
             </div>
             <div class="btn-cell">
-              <a class="btn btn-ios ios-hover"><img class="btn-icon" src="./assets/icon-apple.svg" alt="apple icon">iOS Download</a>
+              <a class="btn btn-ios-design ios-hover"><img class="btn-icon" src="./assets/icon-apple.svg" alt="apple icon">iOS Download</a>
               <p>iOS Download Button Hover</p>
             </div>
           </div>
 
-          <div class="col">
+          <div class="android-btns">
             <div class="btn-cell">
-              <a class="btn btn-android"><img class="btn-icon" src="./assets/icon-android.svg" alt="apple icon">Android Download</a>
+              <a class="btn btn-android-design"><img class="btn-icon" src="./assets/icon-android.svg" alt="apple icon">Android Download</a>
               <p>Android Download Button Default</p>
             </div>
             <div class="btn-cell">
-              <a class="btn btn-android android-hover"><img class="btn-icon" src="./assets/icon-android.svg" alt="apple icon">Android Download</a>
+              <a class="btn btn-android-design android-hover"><img class="btn-icon" src="./assets/icon-android.svg" alt="apple icon">Android Download</a>
               <p>Android Download Button Hover</p>
             </div>
           </div>
 
         </div>
-
-
       </section>
     </main>
 

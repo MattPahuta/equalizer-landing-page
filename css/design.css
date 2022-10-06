@@ -1,0 +1,149 @@
+/* ***************************** */
+/* Design System-specfic classes */
+/* ***************************** */
+.design-body {
+  padding: 0 1.5em;
+}
+
+.design-container {
+  margin: 0 auto;
+  padding-bottom: 8rem;
+  max-width: 1110px;
+}
+
+.design-header {
+  padding: 4em 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: var(--fs-450);
+  font-weight: var(--fw-700);
+}
+
+.design-title {
+  margin-bottom: 3rem;
+  font-size: var(--fs-600);
+  font-weight: var(--fw-700);
+  line-height: 52px;
+}
+
+.design-main {
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.colors-grid {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  column-gap: 1.875rem;
+  row-gap: 3.75rem;
+}
+
+.color {
+  padding: 1em 1em 1.875em ;
+  font-size: 24px;
+  font-weight: var(--fw-700);
+  border-radius: 12px;
+}
+
+.aqua { background-color: var(--clr-aqua); }
+.orange { background-color: var(--clr-orange); }
+.yellow { background-color: var(--clr-yellow); }
+.soft-white { 
+  background-color: var(--clr-soft-white); 
+  border: 1px solid var(--clr-black);
+}
+.black { 
+  background-color: var(--clr-black); 
+  color: var(--clr-soft-white);
+}
+
+.alt-clr-formats {
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.rgb-color,
+.hsl-color {
+  margin-right: 70px;
+  opacity: 0.5;
+}
+
+/* typography section */
+.typo-grid {
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  column-gap: 2rem;
+  row-gap: 3.75rem;
+}
+
+.typo-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.typo-body {
+  padding: 0 2.5em;
+}
+
+.typo-level {
+  gap: 1rem;
+}
+
+.typo-level span {
+  opacity: 0.5;
+}
+
+.typo-grid h1 {
+  margin-bottom: 3.25rem;
+}
+
+/* buttons section */
+.buttons-grid {
+  padding-top: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  background: var(--clr-orange);
+  border: 1px solid var(--clr-orange);
+  border-radius: 12px;
+}
+
+.btn-cell {
+  margin-bottom: 3.75rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 333px;
+}
+
+.btn-ios-design {
+  color: var(--clr-soft-white);
+  background: var(--clr-black);
+}
+
+.ios-hover {
+  background: var(--clr-aqua);
+}
+
+.btn-android-design {
+  color: var(--clr-black);
+  background: var(--clr-soft-white);
+}
+
+.android-hover {
+  background: var(--clr-yellow);
+}
+
+.btn-cell p {
+  margin-top: 12px;
+}
+
+.buttons-grid p {
+  line-height: 32px;
+  letter-spacing: -0.16px;
+  color: var(--clr-soft-white);
+}
