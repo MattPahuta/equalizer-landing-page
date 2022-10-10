@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-and-flexbox-s5rcnMwGeh)
-- Live Site URL: [](https://equalizer-landing-page-1yzssb9bs-mattpahuta.vercel.app/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-grid-and-flexbox-s5rcnMwGeh)
+- Live Site URL: [Vercel-hosted demo site](https://equalizer-landing-page-1yzssb9bs-mattpahuta.vercel.app/)
 
 ## My process
 
