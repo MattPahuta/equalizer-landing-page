@@ -171,7 +171,7 @@ body {
   }
 }
 
-@media (min-width: 72em) {
+@media (min-width: 75em) {
   .page-header {
     margin-bottom: 315px;
   }
@@ -221,7 +221,7 @@ body {
   }
 }
 
-@media (min-width: 72em) {
+@media (min-width: 75em) {
   .product-mockup {
     width: 312px;
     left: 23%;
@@ -287,7 +287,7 @@ body {
   }
 }
 
-@media (min-width: 72em) {
+@media (min-width: 75em) {
   .card {
     padding: 3.625em 3.5em 3em;
     max-width: 450px;
@@ -344,7 +344,7 @@ body {
   }
 }
 
-@media (min-width: 72em) {
+@media (min-width: 75em) {
   .fs-primary-heading,
   .fs-primary-body {
     max-width: 80%;
@@ -420,7 +420,7 @@ body {
   }
 }
 
-@media (min-width: 72em) {
+@media (min-width: 75em) {
   .page-footer {
     grid-template-areas:
       "footer-logo footer-text footer-social"
